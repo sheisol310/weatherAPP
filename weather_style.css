@@ -15,7 +15,7 @@
   
   .container {
     max-width: 90%;
-    width: 1000px;
+    width: 900px;
     background-color: white;
     box-shadow: 0 5px 10px black;
     border-radius: 5px;
@@ -122,28 +122,169 @@
     border-radius: 5px;
     padding: 10px 15px;
     width: 100%;
-  }
-  
-  .pac-item {
-    font-size: 2rem;
-    padding: 10px 10px;
-  }
-  
-  .pac-icon {
-    display: none;
-  }
-  
-  .pac-item-query {
-    font-size: 2rem;
-    padding-right: 14px;
-  }
-  
-  .darksky-logo {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: #333;
-    font-size: 1.5rem;
+  }  
+
+/* describe the general category of a device*/
+/*tablet*/
+@media (width: 768px) {
+  .container {
+    max-width: 90%;
+    width: 700px;
+    height: 550px;
   }
 
+  .detail .value {
+    font-size: 22px;   
+  }
+
+  .city-search {
+    margin-top: 80px;
+    font-size: 3rem;
+  }
+
+}
+
+/*tablet*/
+@media (width: 1024px) {
+  .container {
+    max-width: 90%;
+    width: 900px;
+    height: 600px;
+  }
+
+  .city-search {
+    margin-top: 110px;
+    font-size: 3rem;
+  }
   
+}
+
+/*mobile*/
+@media (max-width: 767px) {
+
+  .content {
+    padding: 0px;
+  }
+
+  .container {
+    max-width: 90%;
+    width: 500px;
+    height: 450px;
+  }
+
+  .icon-container {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .status {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  
+  .location {
+    font-size: 1rem;
+  }
+
+  .time {
+    font-size: 1rem;
+  }
+
+  .detail .title {
+    font-size: 1rem;
+  }
+
+  .detail {
+    padding-right: 15px;
+  }
+  
+  .detail .value {
+    font-size: 15px;   
+  }
+
+  .city-search {
+    margin-top: 50px;
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (width: 540px) {
+
+  .city-search {
+    margin-top: 70px;
+  }
+
+}
+
+@media (width: 320px) {
+
+  .container {
+    height: 420px;
+  }
+
+  .detail .title {
+    font-size: 12px;
+  }
+  
+  .detail .value {
+    font-size: 12px;   
+  }
+
+  .city-search {
+    margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .content {
+    padding: 0px;
+  }
+
+  .container {
+    max-width: 90%;
+    width: 500px;
+    height: 400px;
+  }
+
+  .icon-container {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .status {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  
+  .location {
+    font-size: 1rem;
+  }
+
+  .time {
+    font-size: 1rem;
+  }
+
+  .detail .title {
+    font-size: 12px;
+  }
+
+  .detail {
+    display: table-cell;
+    padding: 14px;
+  }
+  
+  .detail .value {
+    font-size: 10px;   
+    padding-left: 8px;
+  }
+
+  .city-search {
+    margin-top: 50px;
+    font-size: 1rem;
+  }
+
+}
